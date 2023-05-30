@@ -1,0 +1,100 @@
+{
+    "contracts": {
+        "/home/aurora/Desktop/Solidity/contracts/Task.sol": {
+            "Task": {
+                "abi": [],
+                "devdoc": {
+                    "kind": "dev",
+                    "methods": {},
+                    "version": 1
+                },
+                "evm": {
+                    "bytecode": {
+                        "functionDebugData": {},
+                        "generatedSources": [],
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212203e85bd1763e3337efeb658e3c74bc05736b9910c19b5443135a50d86202e8eaf64736f6c63430008130033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 RETURNDATACOPY DUP6 0xBD OR PUSH4 0xE3337EFE 0xB6 PC 0xE3 0xC7 0x4B 0xC0 JUMPI CALLDATASIZE 0xB9 SWAP2 0xC NOT 0xB5 PREVRANDAO BALANCE CALLDATALOAD 0xA5 0xD DUP7 KECCAK256 0x2E DUP15 0xAF PUSH5 0x736F6C6343 STOP ADDMOD SGT STOP CALLER ",
+                        "sourceMap": "65:16:0:-:0;;;;;;;;;;;;;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "functionDebugData": {},
+                        "generatedSources": [],
+                        "immutableReferences": {},
+                        "linkReferences": {},
+                        "object": "6080604052600080fdfea26469706673582212203e85bd1763e3337efeb658e3c74bc05736b9910c19b5443135a50d86202e8eaf64736f6c63430008130033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 RETURNDATACOPY DUP6 0xBD OR PUSH4 0xE3337EFE 0xB6 PC 0xE3 0xC7 0x4B 0xC0 JUMPI CALLDATASIZE 0xB9 SWAP2 0xC NOT 0xB5 PREVRANDAO BALANCE CALLDATALOAD 0xA5 0xD DUP7 KECCAK256 0x2E DUP15 0xAF PUSH5 0x736F6C6343 STOP ADDMOD SGT STOP CALLER ",
+                        "sourceMap": "65:16:0:-:0;;;;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "12600",
+                            "executionCost": "66",
+                            "totalCost": "12666"
+                        }
+                    },
+                    "methodIdentifiers": {}
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/aurora/Desktop/Solidity/contracts/Task.sol\":\"Task\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/aurora/Desktop/Solidity/contracts/Task.sol\":{\"keccak256\":\"0xe5f05772a320af64b49d9e1ab6c787085baf37b565849c74c56803784bf63d6d\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://8fade668d43cb39331059bc3ff778eb7cb0c4dd1c881904f6b74f72a2f64c5c8\",\"dweb:/ipfs/QmZVPg1v4siRK7PpQbpCgYvTGwuxD1VQcqGxvmjVPNx1Ds\"]}},\"version\":1}",
+                "storageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "userdoc": {
+                    "kind": "user",
+                    "methods": {},
+                    "version": 1
+                }
+            }
+        }
+    },
+    "sources": {
+        "/home/aurora/Desktop/Solidity/contracts/Task.sol": {
+            "ast": {
+                "absolutePath": "/home/aurora/Desktop/Solidity/contracts/Task.sol",
+                "exportedSymbols": {
+                    "Task": [
+                        2
+                    ]
+                },
+                "id": 3,
+                "license": "UNLICENSED",
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.8",
+                            ".18"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "39:24:0"
+                    },
+                    {
+                        "abstract": false,
+                        "baseContracts": [],
+                        "canonicalName": "Task",
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "fullyImplemented": true,
+                        "id": 2,
+                        "linearizedBaseContracts": [
+                            2
+                        ],
+                        "name": "Task",
+                        "nameLocation": "74:4:0",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [],
+                        "scope": 3,
+                        "src": "65:16:0",
+                        "usedErrors": []
+                    }
+                ],
+                "src": "39:43:0"
+            },
+            "id": 0
+        }
+    }
+}
