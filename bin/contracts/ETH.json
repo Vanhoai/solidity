@@ -1,0 +1,274 @@
+{
+    "contractName": "ETH",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "users",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "id",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "string",
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "balance",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "price",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"users\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"balance\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"price\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/aurora/Desktop/Solidity/contracts/Array.sol\":\"ETH\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/aurora/Desktop/Solidity/contracts/Array.sol\":{\"keccak256\":\"0x81c77795f4e407d0c8a5062ff699ae9afe6a2c0a99a7bde286ecd3046c765fff\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://047433a81fa1de65e1ccc561e6b781d4164e10a49700f30da4b7996b53c8a32f\",\"dweb:/ipfs/QmX1ZKqzzoWdoKPkRqFpzXKXehDe3NJTyTLWHNLCkZZA75\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5061020d806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c8063365b98b214610030575b600080fd5b61004361003e366004610120565b61005c565b6040516100539493929190610139565b60405180910390f35b6000818154811061006c57600080fd5b600091825260209091206004909102018054600182018054919350906100919061019d565b80601f01602080910402602001604051908101604052809291908181526020018280546100bd9061019d565b801561010a5780601f106100df5761010080835404028352916020019161010a565b820191906000526020600020905b8154815290600101906020018083116100ed57829003601f168201915b5050505050908060020154908060030154905084565b60006020828403121561013257600080fd5b5035919050565b84815260006020608081840152855180608085015260005b8181101561016d5787810183015185820160a001528201610151565b50600060a0828601015260a0601f19601f8301168501019250505083604083015282606083015295945050505050565b600181811c908216806101b157607f821691505b6020821081036101d157634e487b7160e01b600052602260045260246000fd5b5091905056fea26469706673582212203d9af966f9daa674298a1adf7df73fdd65ba505b6e73ddbcf0f4a23ec5f1cbb064736f6c63430008130033",
+    "deployedBytecode": "608060405234801561001057600080fd5b506004361061002b5760003560e01c8063365b98b214610030575b600080fd5b61004361003e366004610120565b61005c565b6040516100539493929190610139565b60405180910390f35b6000818154811061006c57600080fd5b600091825260209091206004909102018054600182018054919350906100919061019d565b80601f01602080910402602001604051908101604052809291908181526020018280546100bd9061019d565b801561010a5780601f106100df5761010080835404028352916020019161010a565b820191906000526020600020905b8154815290600101906020018083116100ed57829003601f168201915b5050505050908060020154908060030154905084565b60006020828403121561013257600080fd5b5035919050565b84815260006020608081840152855180608085015260005b8181101561016d5787810183015185820160a001528201610151565b50600060a0828601015260a0601f19601f8301168501019250505083604083015282606083015295945050505050565b600181811c908216806101b157607f821691505b6020821081036101d157634e487b7160e01b600052602260045260246000fd5b5091905056fea26469706673582212203d9af966f9daa674298a1adf7df73fdd65ba505b6e73ddbcf0f4a23ec5f1cbb064736f6c63430008130033",
+    "sourceMap": "99:155:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "99:155:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;232:19;;;;;;:::i;:::-;;:::i;:::-;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;232:19:0;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;14:180:1:-;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;-1:-1:-1;165:23:1;;14:180;-1:-1:-1;14:180:1:o;199:766::-;432:6;421:9;414:25;395:4;458:2;496:3;491:2;480:9;476:18;469:31;529:6;523:13;573:6;567:3;556:9;552:19;545:35;598:1;608:141;622:6;619:1;616:13;608:141;;;718:14;;;714:23;;708:30;683:17;;;702:3;679:27;672:67;637:10;;608:141;;;612:3;799:1;793:3;784:6;773:9;769:22;765:32;758:43;869:3;862:2;858:7;853:2;845:6;841:15;837:29;826:9;822:45;818:55;810:63;;;;909:6;904:2;893:9;889:18;882:34;952:6;947:2;936:9;932:18;925:34;199:766;;;;;;;:::o;970:380::-;1049:1;1045:12;;;;1092;;;1113:61;;1167:4;1159:6;1155:17;1145:27;;1113:61;1220:2;1212:6;1209:14;1189:18;1186:38;1183:161;;1266:10;1261:3;1257:20;1254:1;1247:31;1301:4;1298:1;1291:15;1329:4;1326:1;1319:15;1183:161;;970:380;;;:::o",
+    "sourcePath": "/home/aurora/Desktop/Solidity/contracts/Array.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.19+commit.7dd6d404"
+    },
+    "ast": {
+        "absolutePath": "/home/aurora/Desktop/Solidity/contracts/Array.sol",
+        "exportedSymbols": {
+            "ETH": [
+                15
+            ]
+        },
+        "id": 16,
+        "license": "UNLICENSED",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".18"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "39:24:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "ETH",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 15,
+                "linearizedBaseContracts": [
+                    15
+                ],
+                "name": "ETH",
+                "nameLocation": "108:3:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "canonicalName": "ETH.User",
+                        "id": 10,
+                        "members": [
+                            {
+                                "constant": false,
+                                "id": 3,
+                                "mutability": "mutable",
+                                "name": "id",
+                                "nameLocation": "148:2:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 10,
+                                "src": "140:10:0",
+                                "stateVariable": false,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                },
+                                "typeName": {
+                                    "id": 2,
+                                    "name": "uint256",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "140:7:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 5,
+                                "mutability": "mutable",
+                                "name": "name",
+                                "nameLocation": "167:4:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 10,
+                                "src": "160:11:0",
+                                "stateVariable": false,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_string_storage_ptr",
+                                    "typeString": "string"
+                                },
+                                "typeName": {
+                                    "id": 4,
+                                    "name": "string",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "160:6:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_storage_ptr",
+                                        "typeString": "string"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 7,
+                                "mutability": "mutable",
+                                "name": "balance",
+                                "nameLocation": "189:7:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 10,
+                                "src": "181:15:0",
+                                "stateVariable": false,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                },
+                                "typeName": {
+                                    "id": 6,
+                                    "name": "uint256",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "181:7:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    }
+                                },
+                                "visibility": "internal"
+                            },
+                            {
+                                "constant": false,
+                                "id": 9,
+                                "mutability": "mutable",
+                                "name": "price",
+                                "nameLocation": "214:5:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 10,
+                                "src": "206:13:0",
+                                "stateVariable": false,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint256",
+                                    "typeString": "uint256"
+                                },
+                                "typeName": {
+                                    "id": 8,
+                                    "name": "uint256",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "206:7:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    }
+                                },
+                                "visibility": "internal"
+                            }
+                        ],
+                        "name": "User",
+                        "nameLocation": "125:4:0",
+                        "nodeType": "StructDefinition",
+                        "scope": 15,
+                        "src": "118:108:0",
+                        "visibility": "public"
+                    },
+                    {
+                        "constant": false,
+                        "functionSelector": "365b98b2",
+                        "id": 14,
+                        "mutability": "mutable",
+                        "name": "users",
+                        "nameLocation": "246:5:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 15,
+                        "src": "232:19:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_array$_t_struct$_User_$10_storage_$dyn_storage",
+                            "typeString": "struct ETH.User[]"
+                        },
+                        "typeName": {
+                            "baseType": {
+                                "id": 12,
+                                "nodeType": "UserDefinedTypeName",
+                                "pathNode": {
+                                    "id": 11,
+                                    "name": "User",
+                                    "nameLocations": [
+                                        "232:4:0"
+                                    ],
+                                    "nodeType": "IdentifierPath",
+                                    "referencedDeclaration": 10,
+                                    "src": "232:4:0"
+                                },
+                                "referencedDeclaration": 10,
+                                "src": "232:4:0",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_User_$10_storage_ptr",
+                                    "typeString": "struct ETH.User"
+                                }
+                            },
+                            "id": 13,
+                            "nodeType": "ArrayTypeName",
+                            "src": "232:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_array$_t_struct$_User_$10_storage_$dyn_storage_ptr",
+                                "typeString": "struct ETH.User[]"
+                            }
+                        },
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 16,
+                "src": "99:155:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "39:216:0"
+    },
+    "functionHashes": {
+        "users(uint256)": "365b98b2"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "105000",
+            "executionCost": "153",
+            "totalCost": "105153"
+        },
+        "external": {
+            "users(uint256)": "infinite"
+        }
+    }
+}

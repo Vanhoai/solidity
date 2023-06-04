@@ -2,9 +2,11 @@
 pragma solidity ^0.8.18;
 
 contract Task {
-    constructor() {}
-
-    function getTask() private pure returns (string memory) {
-        return "";
+    struct User {
+        uint256 id;
+        string name;
+        uint256 balance;
     }
+
+    User[] public users;
 }
